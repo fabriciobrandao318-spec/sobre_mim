@@ -1,0 +1,142 @@
+*{
+    background-color: #f2f2f9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+p{
+    font-size: 15px;
+}
+
+.Sobre_mim {
+    display: flex;
+    gap: 30%;
+    margin: 25px;
+
+    p{
+        margin-top: 10px;
+    }
+    img{
+        height: 110px;
+        width: 200px;
+        border-radius: 50%;
+
+    }
+}
+.projetos{
+    margin: 25px;
+    
+
+    .projeto1_2{
+        margin-top: 10px;
+        display: flex;
+        gap: 10%;
+        
+    }
+    .projeto_memoria{
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        width: 120px; 
+        text-align: center; 
+        border-radius: 10px;
+
+    }
+    .projeto_carta{
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        width: 120px; 
+        text-align: center; 
+        border-radius: 10px;
+    }
+    p{
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    button{
+        background-color: rgb(41, 41, 186);
+        color: rgb(225, 239, 251);
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 10px; 
+        padding: 5px 10px; 
+        cursor: pointer;
+    }
+}
+footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+@media (min-width: 768px) {
+    header p{
+        font-size: 30px;
+
+    }
+
+    .Sobre_mim {
+
+        margin: 30px 50px;
+        h3{
+            margin-top: 50px;
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+        img{
+            height: 200px;
+            width: 250px;
+
+        }
+    }
+
+    .projetos{
+        margin: 30px 50px;
+        
+
+        .projeto1_2{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+
+            
+        }
+        .projeto_memoria{
+            
+            padding: 20px; 
+            width: 150px; 
+            height: 100px;
+            
+
+        }
+        .projeto_carta{
+            
+            padding: 20px; 
+            width: 150px; 
+            height: 100px;
+        }
+
+    }
+    footer{
+        margin: 40px;
+
+
+}
+}
